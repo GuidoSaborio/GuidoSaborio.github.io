@@ -41,6 +41,27 @@
         .tab-content-container.active-content {
             display: block;
         }
+         .social-icons {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        .social-icons li {
+            margin-right: 10px; /* Adjust the margin to control spacing */
+        }
+
+        .social-icons a {
+            display: inline-block;
+            width: 30px; /* Adjust the width as needed */
+            height: 30px; /* Adjust the height as needed */
+            text-align: center;
+            line-height: 30px;
+            background-color: #0077B5; /* Background color for LinkedIn (change for other icons) */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 80%; /* Makes the icon circular */
+        }
         
     </style>
 </head>
@@ -63,8 +84,11 @@
        <h4><b>Contact me at: </b></h4> 
        <p>guido.saborio.r@gmail.com<p>
       <p>gsaborio@gmail.com<p>
-        <p> <a href="https://www.linkedin.com/in/guido-saborio-751506235/"><img src="linkedin-icon.png" width="32" height="32"></a><p>
-        <p> <a href="https://www.researchgate.net/profile/Guido-Saborio-R"><img src="ResearchGate-icon.png" width="32" height="32"></a><p> 
+        
+       <ul class="social-icons">
+      <li> <a href="https://www.linkedin.com/in/guido-saborio-751506235/"><img src="linkedin-icon.png" width="32" height="32"></a><li>
+        <li> <a href="https://www.researchgate.net/profile/Guido-Saborio-R"><img src="ResearchGate_icon.png" width="32" height="32"></a><li> 
+      </ul>
 
       </div> 
       <div class="column">
